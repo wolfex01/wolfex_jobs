@@ -1,10 +1,14 @@
 Config = {}
 
+-- a konfigurációs fájlban beállítjuk a munkákat és a hozzájuk tartozó koordinátákat
 Config.Jobs = {'police', 'miner', 'cop'}
 Config.JobCoords = {
-    {vector3(-262.46899414063,-969.07263183594,31.224308013916)},
+    {x = -262.469, y = -969.073, z = 31.224},
 }
 
-Config.ESX = true
-Config.QB = false
--- Do not rename this script! Please :)
+-- a szerver keretrendszerének beállítása (ESX, QB, stb.)
+Config.Framework = 'ESX'
+
+-- kérlek, ne változtasd meg ezt a fájlnévet!
+-- Ha további konfigurációs beállításokra van szükséged, akkor ezt itt teheted meg.
+
